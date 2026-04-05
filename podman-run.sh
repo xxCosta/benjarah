@@ -4,7 +4,7 @@
 
 podman run --replace \
   --name mine1 \
-  -i \
+  -d \
   -p 42069:42069 \
   -v ./world:/minecraft/world \
-  localhost/benjarah
+  docker.io/saucedbenny/benjarah:latest
